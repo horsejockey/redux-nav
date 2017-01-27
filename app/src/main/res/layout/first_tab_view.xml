@@ -1,0 +1,31 @@
+<com.cotopaxi.bottombarwithnavigationcontainers.FirstTabView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/text_current_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Default State" />
+
+    <Button
+        android:id="@+id/music_button"
+        android:layout_width="150dp"
+        android:layout_below="@+id/text_current_state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:layout_height="70dp"
+        android:text="Show Detail" />
+
+    <TextView
+        android:text="Shared State:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_current_state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</com.cotopaxi.bottombarwithnavigationcontainers.FirstTabView>
